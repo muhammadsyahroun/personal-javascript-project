@@ -1,4 +1,4 @@
-var game = new Phaser.Game(600, 400, Phaser.AUTO, 'TutContainer', { preload: preload, create: create, update:update });
+var game = new Phaser.Game(600, 400, Phaser.AUTO, 'gameContainer', { preload: preload, create: create, update:update });
 var upKey;
 var downKey;
 var leftKey;
