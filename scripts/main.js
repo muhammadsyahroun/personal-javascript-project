@@ -27,7 +27,7 @@ var heroWidth= (floorGraphicWidth/2)-(heroGraphicWidth/2);//for placing hero at 
 var facing='south';//direction the character faces
 var sorcerer;//hero
 var sorcererShadow;//duh
-var shadowOffset=new Phaser.Point(heroWidth+7,11);
+var shadowOffset=new Phaser.Geom.Point(heroWidth+7,11);
 var bmpText;//title text
 var normText;//text to display hero coordinates
 var minimap;//minimap holder group
